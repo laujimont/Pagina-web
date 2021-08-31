@@ -1,0 +1,135 @@
+<link rel="preconnect"
+    href="https://fonts.googleapis.com">
+<link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400;1,500&display=swap"
+    rel="stylesheet">
+<style>  
+    body{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    .contenedor-secc1{
+        background-color: #e32c05; 
+        margin-top: 20px; 
+        height: 660px; 
+        width: 100%; 
+        color:#fff;
+    }
+    .texto-grande{
+        font-size: 70px;
+    }
+    .imagen-historia{
+        border: solid 8px #000;
+        width: 650px;
+    }
+    .imagen-historia:hover{
+        border: solid 8px #fff;
+        transform: scale(1.095);
+    }
+    #menu ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+    #menu ul li {
+        background-color:#2e518b;
+    }
+    #menu ul a {
+        display:block;
+        color:#fff;
+        text-decoration:none;
+        font-weight:400;
+        font-size:15px;
+        padding:10px;
+        font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform:uppercase;
+        letter-spacing:1px;
+    }
+
+    #menu ul li {
+        position:relative;
+        float:left;
+        margin:0;
+        padding:0;
+    }
+
+    #menu ul li:hover {
+        background:#5b78a7;
+    }
+
+    #menu ul ul {
+        display:none;
+        position:absolute;
+        top:100%;
+        left:0;
+        background:#eee;
+        padding:0;
+    }
+
+    #menu ul ul li {
+        float:none;
+        width:150px
+    }
+
+    #menu ul ul a {
+        line-height:120%;
+        padding:10px 15px;
+    }
+
+    #menu ul li:hover > ul {
+        display:block;
+    }
+</style>
+
+<div style=" margin-bottom: 30px;">
+    <nav id="menu" style="margin-left: 38%;">
+        <ul>
+            <li><a href="#">Enlace 1</a></li>
+            <li><a href="#">Enlace 2</a>
+                <ul>
+                    <li><a href="http://google.com">Enlace 2.1</a></li>
+                    <li><a href="#">Enlace 2.2</a></li>
+                    <li><a href="#">Enlace 2.3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Enlace 3</a></li>
+            <li><a href="#">Enlace 4</a></li>
+            <li><a href="#">Enlace 5</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+<div style="text-align: center;">
+    <img srcset="reunion-colombia.jpg"
+    width="1890"
+    alt=""
+    style="border: solid 8px #000; margin-top: 20px;">
+</div>
+
+<!-- SECCIÓN HISTORIA -->
+
+<div class="contenedor-secc1">
+    <div style="width: 49%; float: left; text-align: center;">
+        <div style="font-size: 60px;">
+            Nuestra 
+            <br> 
+            <span class="texto-grande">¡Historia!</span>
+        </div>
+        <div>
+            <img src="1901.jpg" class="imagen-historia" alt="">
+        </div>
+    </div>
+    <div style="width: 49%; float: right;">
+        <div style="margin-top: 15%">
+            <span class="texto-grande">1901</span>
+        </div>
+        <div>
+            Se produce la primera motocicleta Royal Enfield. Diseñado por R. W. Smith y el francés Jules Gotiet, tiene un motor
+            Minerva de 1 1/2 HP montado en la parte delantera del cabezal de la dirección. La transmisión final está en la rueda
+            trasera por medio de una correa larga de cuero crudo.
+        </div>
+    </div>
+</div>
