@@ -208,14 +208,6 @@ background-color:#c73b3b;
     text-align: center;
     font-size: 50PX;
 }
-.contenedor{
-    background-color: #c73b3b;
-    display: flex;
-    width: 80%;
-    margin: auto;
-    font-family: 'Livvic', sans-serif;
-    font-weight:500;
-}
 .info.contenedor.tarjetas{
     font-family: 'Livvic', sans-serif;
     font-weight:600;
