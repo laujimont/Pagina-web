@@ -181,7 +181,7 @@ background-color:#c73b3b;
     margin: auto;
     margin-top: 40px;
 }
-.ver_mas{
+/* .ver_mas{
     font-family: 'Livvic', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -194,7 +194,7 @@ background-color:#c73b3b;
     border-radius: 20px;
     border: #FFF solid 2px;
     width: 10%;
-}
+} */
 .ver_mas:hover{
     background-color: #c73b3b;
     color: #000;
@@ -213,27 +213,7 @@ background-color:#c73b3b;
     text-align: center;
     font-size: 35PX;
 }
-/* .info .contenedor .tarjetas{
-    font-family: 'Livvic', sans-serif;
-    font-weight:600;
-    font-size: 10PX;
-    align-content:space-between;
-}
-.info .contenedor .tarjetas-t1 {
-    background-color: rgb(253, 0, 0);
-    width: 20px 20px 20px 20px;
-    color: black;
-}
-.info .contenedor .tarjetas-t2 {
-    background-color: rgb(255, 255, 255);
-    width: 20px 20px 20px 20px;
-    color: black;
-}
-.info .contenedor .tarjetas-t3 {
-    background-color: rgb(255, 255, 255);
-    width: 20px 20px 20px 20px;
-    color: black;
-} */
+
 .titulo-nuestra-historia{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -253,17 +233,50 @@ background-color:#c73b3b;
     text-align: center;
     width: 405px;
     height: 386px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 .texto-naranja{
     color: #E67705;
 }
-/** MEDIA QUERYS */
-@media (max-width: 2500px) {
-    .imagen-principal{
-        width: 1333;
+
+.texto-imagen-galeria{
+    position: absolute;
+    text-align: center;
+    width: 97%;
+    color: #E6370E;
+    font-size: 25;
+    padding: 20px;
+    /* font-weight: 900; */
+    margin-top: 32%;
 }
+
+/** MEDIA QUERYS */
+@media (max-width: 1500px) {
+    .imagen-principal{
+        width: 1333px;
+    }
+    .img-opacar{
+        width: 1333px;
+    }
+    .tarjetas{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1800px) and (max-width: 2500px) {
+    .imagen-principal{
+        width: 1886px;
+    }
+    .tarjetas{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-opacar{
+        width: 1886px;
+        border: solid 1px #fff;
+    }
+}
+
 .textoss {
     background-image:"images/Moto 1 3.png";
     padding-top: 100px;
@@ -346,7 +359,9 @@ background-color:#c73b3b;
 .grupo{
     border: solid #fff;
     align-content: center;
-    
+    text-align: center;
+    background-color: #ddd;
+    padding: 14px;
 }
 .grupo:hover {
     zoom: 1.5px;
@@ -359,20 +374,51 @@ background-color:#c73b3b;
     display: block;
     align-content: center;
     margin: auto;
+    color: #FFF;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: rgb(255, 166, 0) solid 2px;
+    width: 10%;
+    padding: 10px;
+}
+.ver_mas:hover{
+    background-color: #FFA300;
+    color: #000;
+}
+.links-home{
+    text-decoration: none;
+    color: #FFF;
+}
+.texto-inicio {
+    background-image: image("images/Moto 1 3.png");
+    background-size: cover;
+    /* min-height: 980px; */
+}
+
+.imagenes-galeria{
+    border: solid 2px #000;
+}
+
+.imagenes-galeria:hover{
+    transform: scale(1.095);
+}
+.ver_mas_galeria{
+    font-family: 'Livvic', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    align-content: center;
+    margin: auto;
     color: #000;
     text-align: center;
     margin-top: 30px;
     border-radius: 20px;
     border: rgb(255, 166, 0) solid 2px;
     width: 10%;
+    padding: 10px;
 }
-.ver_mas:hover{
+.ver_mas_galeria:hover{
     background-color: #FFA300;
-    color: #000;
-}
-.texto-inicio {
-    background-image: image("images/Moto 1 3.png");
-    background-size: cover;
-    min-height: 980px;
-
+    color: #FFF;
 }
